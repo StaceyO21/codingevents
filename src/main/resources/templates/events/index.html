@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Events</title>
+</head>
+<body>
+    <h1>Events</h1>
+    <ul>
+        <li th:each="event : ${events}" th:text="${event}"></li>
+    </ul>
+</body>
+</html>

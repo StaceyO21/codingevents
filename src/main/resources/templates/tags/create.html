@@ -3,7 +3,7 @@
 <head th:replace="fragments :: head"></head>
 <body class="container">
 <header th:replace="fragments :: header"></header>
-<form th:action="@{/tags/create}" th:object="${tag} method="POST">
+<form method="POST">
     <div class="form-group">
         <label>Name
             <input th:field="${tag.name}" class="form-control">

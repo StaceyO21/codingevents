@@ -116,7 +116,7 @@ public class AuthenticationController {
         }
 
         setUserInSession(request.getSession(), theUser);
-        return "redirect:/login.html";
+        return "redirect:/events";
     }
 
     @GetMapping("logout")
